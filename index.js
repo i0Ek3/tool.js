@@ -9,4 +9,10 @@ function isPalindrome(strName, left, right) {
     return true;
 }
 
+function sortBySize(a, b) {
+    nums.sort((a, b) => {
+        return a - b
+    })
+}
+
 module.exports = isPalindrome;
